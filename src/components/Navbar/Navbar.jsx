@@ -4,7 +4,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div >
-            <div className="navbar bg-neutral  top-0 fixed z-10 text-white">
+            <div className="navbar bg-neutral  top-0 fixed z-30 text-white">
                 <div className="navbar-start">
                   
                     <img className="nav-logo mx-8" src={logo} alt="" />
