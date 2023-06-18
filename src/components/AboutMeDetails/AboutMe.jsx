@@ -32,8 +32,8 @@ const AboutMe = () => {
                         <div>                 <p className='text-2xl font-bold'>Social Links</p>
 
 <div className='grid grid-cols-8 mt-4'>
-   <div className='col-span-4 md:col-span-1'> <Link><FaLinkedinIn size={30}></FaLinkedinIn></Link></div>
-   <div className='col-span-4 md:col-span-1'><Link><FaGithub size={30}></FaGithub></Link></div>
+   <div className='col-span-4 md:col-span-1'> <Link to= "https://www.linkedin.com/in/abrar-saleheen-6a9416177/"><FaLinkedinIn size={30}></FaLinkedinIn></Link></div>
+   <div className='col-span-4 md:col-span-1'><Link to= "https://github.com/saleheen22"  ><FaGithub size={30}></FaGithub></Link></div>
 
 </div></div>
                         <div>
