@@ -151,15 +151,7 @@ const About = () => {
                             <br />
                             </p>
                          <p className="text-justify">  <span className="py-4 ">
-                           I am a results-oriented web developer with a specialization in React and a
-                            passion for exploring new technologies. Proficient in building dynamic
-                            and responsive web applications using React, CSS, HTML, and JavaScript.
-                            Experienced in implementing Firebase authentication for secure user
-                            authentication and authorization. Possesses beginner-level expertise in
-                            Express.js and MongoDB for server-side development. A quick learner
-                            and adaptable professional who thrives in collaborative environments,
-                            dedicated to delivering high-quality code and exceptional user
-                            experiences. <Link>adfd</Link>
+                         I am a results-oriented web developer specializing in React. Proficient in building dynamic, responsive web applications using React, CSS, HTML, and JavaScript. Experienced in implementing secure Firebase authentication for users. Also familiar with Express.js and MongoDB for server-side development. I am a quick learner, adaptable, and dedicated to delivering high-quality code and exceptional user experiences.
                             </span> <br />
                             {/* <div className="">
                             <button className="btn mt-4 font-bold btn-warning z-20 grid grid-cols-2"> <a href="google.com"><div>Download CV </div> <div><FaDownload></FaDownload></div></a> </button>

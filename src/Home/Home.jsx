@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import About from "../components/About/About";
 import Resume from "../components/Resume/Resume";
 import SocialLink from "../components/About/Social/SocialLink";
+import AboutMe from "../components/AboutMeDetails/AboutMe";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Navbar></Navbar>
             <About></About>
             <SocialLink></SocialLink>
+            <AboutMe></AboutMe>
             <Resume></Resume>
             </div>
         </div>
