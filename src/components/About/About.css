@@ -1,0 +1,46 @@
+.about{
+  height: 800px;
+}
+/* .container{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    height: 500px;
+    width: 100vw;
+}
+.container > div {
+    position: relative;
+    width: 100%;
+}  */
+/* .container {
+  position: relative;
+  height: 800px;
+} */
+
+/* .party {
+  position: absolute;
+  top: 72px;
+  left: 0;
+
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 0; 
+} */
+
+/* #mydiv {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  z-index: 1;
+} */
+
+#tsparticles {   
+  height: 500px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}

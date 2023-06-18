@@ -1,9 +1,20 @@
+import { Helmet } from "react-helmet-async";
+import Navbar from "../components/Navbar/Navbar";
+import About from "../components/About/About";
+import Resume from "../components/Resume/Resume";
 
 const Home = () => {
     return (
         <div>
-            <h2 className="text-3xl">This is home page</h2>
-            <button className="btn btn-warning">Button</button>
+            <Helmet>
+                <title>Abrar Saleheen </title>
+            </Helmet>
+         
+            <div className="bg-neutral text-white">
+            <Navbar></Navbar>
+            <About></About>
+            <Resume></Resume>
+            </div>
         </div>
     );
 };
