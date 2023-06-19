@@ -4,13 +4,13 @@
 
 @media screen and (max-width: 575px) {
     .aboutme{
-        height: 250vh;
+        height: 230vh;
     }
   }
 
   @media screen and ((min-width: 576px) and (max-width: 1023px))
   {
     .aboutme{
-        height: 150vh;
+        height: 130vh;
     }
   }  

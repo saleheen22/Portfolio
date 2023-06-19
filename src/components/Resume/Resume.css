@@ -1,8 +1,24 @@
 .resume{
-    height: 100vh;
+    height: 155vh;
 }
 .active{
     background-color:  rgb(251 191 36);;
     color: black;
     
 }
+.progress {
+    background-color: lightgray;
+  }
+
+  @media screen and ((min-width: 576px) and (max-width: 1023px))
+  {
+    .resume{
+        height: 155vh;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    .resume{
+        height: 175vh;
+    }
+  }  

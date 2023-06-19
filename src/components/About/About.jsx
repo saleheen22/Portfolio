@@ -4,9 +4,7 @@ import { loadFull } from "tsparticles";
 import './About.css';
 import img1 from '../../../public/19101331 Abrar Saleheen.jpg';
 import { FaDownload } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import cv from '../../../public/Resume.pdf';
-import img2 from '../../../public/IMG-20230320-WA0085.jpg'
 const About = () => {
 
     const particlesInit = useCallback(async engine => {
