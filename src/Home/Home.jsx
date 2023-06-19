@@ -4,6 +4,7 @@ import About from "../components/About/About";
 import Resume from "../components/Resume/Resume";
 import SocialLink from "../components/About/Social/SocialLink";
 import AboutMe from "../components/AboutMeDetails/AboutMe";
+import Checking from "./Checking";
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <SocialLink></SocialLink>
             <AboutMe></AboutMe>
             <Resume></Resume>
+            <Checking></Checking>
             </div>
         </div>
     );
