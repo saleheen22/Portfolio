@@ -1,7 +1,7 @@
-
+import './Educations.css';
 const Educations = () => {
     return (
-        <div className=" pt-0 lg:pt-16 w-full h-[180vh] border-l-[5px] border-white ">
+        <div className=" pt-0 lg:pt-16 w-full h-[180vh] border-l-[5px] border-white education">
             <div className="w-full h-1/3 flex  text-center group ">
                 <div className="w-20 lg:w-80 h-[6px] mt-16 relative bg-slate-200">
                     <span className="absolute w-5 h-5 rounded-full -top-2 -left-3 flex justify-center items-center group-hover:bg-red-700 bg-amber-400"></span>
