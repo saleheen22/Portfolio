@@ -44,7 +44,7 @@ const Resume = () => {
 
 
     return (
-        <div className="h-96 pt-80 md:pt-32 resume">
+        <div name="rsm" className="h-96 pt-80 md:pt-32 resume">
             <h2 className='text-3xl md:text-5xl text-center font-bold '>Resume</h2>
             <div className='mt-12'>
                 <Tabs selectedTabClassName="active mb-10 font-semibold " >

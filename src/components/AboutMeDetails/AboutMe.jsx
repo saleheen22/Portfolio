@@ -4,7 +4,7 @@ import './AboutMe.css';
 import { Link } from 'react-router-dom';
 const AboutMe = () => {
     return (
-        <div className='aboutme pt-80 md:pt-32 ms-16 lg:ms-32 mb-28'>
+        <div name="abt" className='aboutme pt-80 md:pt-32 ms-16 lg:ms-32 mb-28'>
             <h2 className='  text-3xl md:text-5xl font-bold inline border-b-4 border-gray-500 '> About <br /></h2>
 
             <br />
