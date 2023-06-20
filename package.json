@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "dotenv": "^16.1.4",
+    "@emailjs/browser": "^3.11.0",
+    "dotenv": "^16.3.1",
     "keen-slider": "^6.8.5",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -23,6 +24,7 @@
     "react-tabs": "^6.0.1",
     "react-tsparticles": "^2.10.1",
     "sort-by": "^1.2.0",
+    "sweetalert2": "^11.7.12",
     "tsparticles": "^2.10.1"
   },
   "devDependencies": {
