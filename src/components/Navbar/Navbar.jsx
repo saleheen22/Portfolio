@@ -14,7 +14,7 @@ const Navbar = () => {
                         <Link to='nm' smooth duration={500}  className="mx-8"><li> Home </li></Link>
                         <Link to='abt' smooth duration={500} className="mx-8"><li> About </li></Link>
                         <Link to='rsm' smooth duration={500} className="mx-8"><li> Resume </li></Link>
-                        <Link to='cnt' smooth duration={500} className="mx-8"><li> Contact </li></Link>
+                        <Link to='cnt' smooth duration={500} className="mx-10"><li> Send Message </li></Link>
 
                         
                     </ul>
@@ -28,7 +28,7 @@ const Navbar = () => {
                         <Link to='nm' smooth duration={500}  className="my-4"><li> Home </li></Link>
                         <Link to='abt' smooth duration={500} className="my-4"><li> About </li></Link>
                         <Link to='rsm' smooth duration={500} className="my-4"><li> Resume </li></Link>
-                        <Link to='cnt' smooth duration={500} className="my-4"><li> Contact </li></Link>
+                        <Link to='cnt' smooth duration={500} className="my-4"><li> Send Message </li></Link>
                         </ul>
                     </div>
              </div>

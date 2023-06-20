@@ -2,6 +2,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import img2 from '../../../public/IMG-20230320-WA0085.jpg'
 import './AboutMe.css';
 import { Link } from 'react-router-dom';
+
 const AboutMe = () => {
     return (
         <div name="abt" className='aboutme pt-80 md:pt-32 ms-16 lg:ms-32 mb-28'>
@@ -40,7 +41,7 @@ const AboutMe = () => {
                         <p className='text-2xl font-bold mb-2'>Contact Details</p>
                         <p className='font-semibold hidden lg:block me-4 pe-16 '>Email: muntasaleheen@gmail.com</p>
                         <p className='lg:hidden'>Email: <span>muntasaleheen</span> <br />  <span>@gmail.com</span></p>
-                        <p className='font-semibold '>Phone: +8801790511279</p>
+                        <p className='font-semibold font-sans'>Phone: +8801790511279</p>
                         </div>
                     </div>
                 </div>

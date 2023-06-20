@@ -193,10 +193,10 @@ const Resume = () => {
 
                                             <div className="card-body   h-1/6 group grid grid-cols-2 gap-36">
                                                 {/* <p className='text-justify mt-2 p-0'>Demo</p> */}
-                                                <Link>Demo</Link>
+                                                <Link to="https://kitchen-champ.web.app/" target="_blank">Demo</Link>
 
                                                 {/* <button className='btn btn-xs btn-outline btn-warning  mt-2' >Code</button> */}
-                                                <Link>Code </Link>
+                                                <Link to="https://github.com/saleheen22/Kitchen-Champ-client" target="_blank">Code </Link>
 
                                             </div>
 
@@ -214,10 +214,10 @@ const Resume = () => {
                                             <div className='card-title mt-2'>Sheldor Train World</div>
                                             <div className="card-body   h-1/6 group grid grid-cols-2 gap-36">
                                                 {/* <p className='text-justify mt-2 p-0'>Demo</p> */}
-                                                <Link>Demo</Link>
+                                                <Link to="https://toymarketplace-ea298.web.app/" target="_blank">Demo</Link>
 
                                                 {/* <button className='btn btn-xs btn-outline btn-warning  mt-2' >Code</button> */}
-                                                <Link>Code</Link>
+                                                <Link to="https://github.com/saleheen22/Sheldor-Train-World-Client" target="_blank">Code</Link>
 
                                             </div>
 
@@ -235,10 +235,10 @@ const Resume = () => {
                                             <div className='card-title mt-2'>Bangladeshi Canteen</div>
                                             <div className="card-body   h-1/6 group grid grid-cols-2 gap-36">
                                                 {/* <p className='text-justify mt-2 p-0'>Demo</p> */}
-                                                <Link>Demo</Link>
+                                                <Link to="https://banglar-canteen-254f0.web.app/" target="_blank">Demo</Link>
 
                                                 {/* <button className='btn btn-xs btn-outline btn-warning  mt-2' >Code</button> */}
-                                                <Link>Code</Link>
+                                                <Link to="https://github.com/saleheen22/Bangladeshi-Canteen-Client" target="_blank">Code</Link>
 
                                             </div>
 
@@ -254,10 +254,10 @@ const Resume = () => {
                                             <div className='card-title mt-2'>Portfolio Website</div>
                                             <div className="card-body   h-1/6 group grid grid-cols-2 gap-36">
                                                 {/* <p className='text-justify mt-2 p-0'>Demo</p> */}
-                                                <Link>Demo</Link>
+                                                <Link target="_blank">Demo</Link>
 
                                                 {/* <button className='btn btn-xs btn-outline btn-warning  mt-2' >Code</button> */}
-                                                <Link>Code</Link>
+                                                <Link to="https://github.com/saleheen22/Portfolio" target="_blank">Code</Link>
 
                                             </div>
 

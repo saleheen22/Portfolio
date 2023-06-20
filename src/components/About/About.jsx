@@ -5,6 +5,9 @@ import './About.css';
 import img1 from '../../../public/19101331 Abrar Saleheen.jpg';
 import { FaDownload } from "react-icons/fa";
 import cv from '../../../public/Resume.pdf';
+import Typewriter from "typewriter-effect";
+
+
 const About = () => {
 
     const particlesInit = useCallback(async engine => {
@@ -139,33 +142,48 @@ const About = () => {
 
 
                         </div>
-                       <div className="z-40">
-                       <p className="text-left">
-                            <span className="text-3xl  font-bold text-left">Hi, <br></br> <span className="text-4xl md:text-7xl">
-                                
-                            I am <span className="text-amber-400 ">Abrar  Saleheen </span>
+                        <div className="z-40">
+                            <p className="text-left">
+                                <span className="text-3xl  font-bold text-left">Hi, <br></br> <span className="text-4xl md:text-7xl">
+
+                                    I am <span className="text-amber-400 "> Abrar Saleheen</span>
                                 </span></span>
 
-                            <br />
+                                <br />
                             </p>
-                         <p className="text-justify">  <span className="py-4 ">
-                         I am a results-oriented web developer specializing in React. Proficient in building dynamic, responsive web applications using React, CSS, HTML, and JavaScript. Experienced in implementing secure Firebase authentication for users. Also familiar with Express.js and MongoDB for server-side development. I am a quick learner, adaptable, and dedicated to delivering high-quality code and exceptional user experiences.
+                            <p className="text-2xl md:text-5xl font-semibold my-4"><Typewriter
+
+                             options={{
+                                autoStart: true,
+                                delay: 40,
+                                loop: true,
+                                strings:[
+                                    "I am a web developer",
+                                    "Harnessing the power of React",
+                                    "Fueling Projects with Firebase",
+                                    "Unleashing the power of MongoDB"
+                                    
+                                ]
+                             }}
+                            /></p>
+                            <p className="text-justify">  <span className="py-4 ">
+                                I am a results-oriented web developer specializing in React. Proficient in building dynamic, responsive web applications using React, CSS, HTML, and JavaScript. Experienced in implementing secure Firebase authentication for users. Also familiar with Express.js and MongoDB for server-side development. 
                             </span> <br />
-                            {/* <div className="">
+                                {/* <div className="">
                             <button className="btn mt-4 font-bold btn-warning z-20 grid grid-cols-2"> <a href="google.com"><div>Download CV </div> <div><FaDownload></FaDownload></div></a> </button>
                             
                             </div> */}
-                            <a href={cv} download="Resume" >
+                                <a href={cv} download="Resume" >
 
-                            <div className="">
-                            <button className="btn mt-4 font-bold btn-warning  "> <div>Download CV </div> <div><FaDownload></FaDownload></div> </button>
-                            
-                            </div>
+                                    <div className="">
+                                        <button className="btn mt-4 font-bold btn-warning  "> <div>Download CV </div> <div><FaDownload></FaDownload></div> </button>
 
-                            </a>
-       
-                        </p>
-                       </div>
+                                    </div>
+
+                                </a>
+
+                            </p>
+                        </div>
                     </div>
 
                     <div className="overflow-hidden md:col-span-4 col-span-10 text-center  2xl:ms-28 z-20 pe-16">
@@ -174,7 +192,7 @@ const About = () => {
                             <br />
                             <br />
                             <br />
-                            
+
 
 
                         </div>

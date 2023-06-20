@@ -28,27 +28,29 @@ const Contact = () => {
 
     return (
         <div name="cnt" className='text-center mx-auto h-full pb-24'>
-            <h2 className='font-bold text-2xl lg:text-5xl '>Contact Me</h2>
+            <h2 className='font-bold text-2xl lg:text-5xl '>
+                Write me a Massage
+            </h2>
             <div className='mt-5 lg:mt-10'>
                     <form ref={form} onSubmit={sendEmail} className='mt-10 lg:mt-16 mx-16 lg:mx-52 text-black'>
                     <div className="form-control  ">
                         <label className="label">
                             <span className="label-text text-white text-2xl font-bold">Your Name</span>
                         </label>
-                        <input type="text" name='from_name' placeholder="Name" className="input input-bordered text-xl" />
+                        <input required type="text" name='from_name' placeholder="Name" className="input input-bordered text-xl" />
                     </div>
                     <div className="form-control ">
                         <label className="label">
                             <span className="label-text text-white mt-5 text-2xl font-bold">Your Email</span>
                         </label>
-                        <input type="text" name='user_email' placeholder="email" className="input input-bordered text-xl" />
+                        <input required type="email" name='user_email' placeholder="email" className="input input-bordered text-xl" />
                      
                     </div>
                     <div className="form-control">
                         <label className="label mt-5">
                             <span className="label-text text-white text-2xl font-bold">Message</span>
                         </label>
-                        <textarea name="message" rows="4" cols="100" className='text-xl' placeholder="Message" />
+                        <textarea required name="message" rows="4" cols="100" className='text-xl rounded-[10px] p-5' placeholder="Message" />
                         
                       
                     </div>
