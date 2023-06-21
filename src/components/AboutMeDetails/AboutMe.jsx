@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
     return (
-        <div name="abt" className='aboutme pt-80 md:pt-32 ms-16 lg:ms-32 mb-28'>
+        <div name="abt" className='aboutme pt-80 md:pt-32 ms-16 lg:ms-32 mb-28 ' >
             <h2 className='  text-3xl md:text-5xl font-bold inline border-b-4 border-gray-500 '> About <br /></h2>
 
             <br />
@@ -33,8 +33,8 @@ const AboutMe = () => {
                         <div>                 <p className='text-2xl font-bold'>Social Links</p>
 
 <div className='grid grid-cols-8 mt-4'>
-   <div className='col-span-4 md:col-span-1'> <Link to= "https://www.linkedin.com/in/abrar-saleheen-6a9416177/"><FaLinkedinIn size={30}></FaLinkedinIn></Link></div>
-   <div className='col-span-4 md:col-span-1'><Link to= "https://github.com/saleheen22"  ><FaGithub size={30}></FaGithub></Link></div>
+   <div className='col-span-4 md:col-span-1'> <Link to= "https://www.linkedin.com/in/abrar-saleheen-6a9416177/" target="_blank" ><FaLinkedinIn size={30}></FaLinkedinIn></Link></div>
+   <div className='col-span-4 md:col-span-1'><Link to= "https://github.com/saleheen22"  target="_blank" ><FaGithub size={30}></FaGithub></Link></div>
 
 </div></div>
                         <div>

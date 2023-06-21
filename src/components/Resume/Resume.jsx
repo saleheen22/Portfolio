@@ -4,7 +4,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css";
-// import img1 from '../../../public/19101331 Abrar Saleheen.jpg';
 import img4 from '../../../public/portfoliowebsite1.png'
 import img1 from '../../../public/kitchenchamp.png'
 import img3 from '../../../public/banglarcanteen.png';
@@ -44,7 +43,7 @@ const Resume = () => {
 
 
     return (
-        <div name="rsm" className="h-96 pt-80 md:pt-32 resume">
+        <div name="rsm"  className="h-96 pt-80 mt-5 md:pt-48 resume">
             <h2 className='text-3xl md:text-5xl text-center font-bold '>Resume</h2>
             <div className='mt-12'>
                 <Tabs selectedTabClassName="active mb-10 font-semibold " >
@@ -254,7 +253,7 @@ const Resume = () => {
                                             <div className='card-title mt-2'>Portfolio Website</div>
                                             <div className="card-body   h-1/6 group grid grid-cols-2 gap-36">
                                                 {/* <p className='text-justify mt-2 p-0'>Demo</p> */}
-                                                <Link target="_blank">Demo</Link>
+                                                <Link to="https://abrar-saleheen.web.app/" target="_blank">Demo</Link>
 
                                                 {/* <button className='btn btn-xs btn-outline btn-warning  mt-2' >Code</button> */}
                                                 <Link to="https://github.com/saleheen22/Portfolio" target="_blank">Code</Link>

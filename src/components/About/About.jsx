@@ -6,6 +6,7 @@ import img1 from '../../../public/19101331 Abrar Saleheen.jpg';
 import { FaDownload } from "react-icons/fa";
 import cv from '../../../public/Resume.pdf';
 import Typewriter from "typewriter-effect";
+import 'animate.css';
 
 
 const About = () => {
@@ -22,7 +23,7 @@ const About = () => {
         await console.log(container);
     }, []);
     return (
-        <div className="about ms-4 lg:ms-32">
+        <div className="about ms-4 lg:ms-32 animate__animated animate__fadeInLeft">
             <div className="pt-24 container">
                 {/* <ParticleBg></ParticleBg> */}
                 <div className="party"  >
