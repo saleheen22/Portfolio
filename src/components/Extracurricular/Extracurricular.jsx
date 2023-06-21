@@ -3,10 +3,10 @@ import './Extracurricular.css'
 const Extracurricular = () => {
     return (
         <div className='mt-5 text-white'>
-            <div className='grid grid-cols-1 lg:grid-cols-4 ms-5 lg:ms-56 me-5 lg:me-10 '>
+            <div className='grid grid-cols-1 lg:grid-cols-4 ms-5 lg:ms-48 me-5 lg:me-10 gap-5 lg:gap-24'>
                 {/* card 1 */}
-                <div className='col-span-1 md:col-span-1 lg:col-span-2 gap-5' >
-                    <div className="card card-side  shadow-3xl rounded-3xl bg-slate-700 h-full   lg:w-[500px] shadow-2xl shadow-black">
+                <div className='col-span-1 md:col-span-1 lg:col-span-2 ' >
+                    <div className="card card-side  shadow-3xl rounded-3xl bg-slate-700 h-full   lg:w-full shadow-2xl shadow-black">
 
                         <div className="card-body">
 
@@ -33,7 +33,7 @@ const Extracurricular = () => {
 
                 {/* card2 */}
                 <div className='col-span-1 lg:col-span-2 me-1 lg:me-16 mt-10 lg:mt-0'>
-                    <div className="card card-side  bg-slate-700 h-full lg:w-[500px] rounded-3xl  shadow-2xl shadow-black">
+                    <div className="card card-side  bg-slate-700 h-full lg:w-full rounded-3xl  shadow-2xl shadow-black">
 
                         <div className="card-body">
                             <h2 className="card-title text-xl font-bold">Senior Executive of Event Management</h2>
@@ -47,7 +47,7 @@ const Extracurricular = () => {
 
 
                             <p className='text-justify mt-7'>
-                            During my time at BRAC University, I was an active member of the BRAC University Computer Club (BUCC) and held a position in the event management department. As a dedicated member, I actively contributed to the club's event planning and execution, including venue selection, logistics management, and guest coordination. Through this experience, I honed my skills in planning, organization, and effective event management. My role as a senior executive further solidified my abilities in overseeing successful events. This clubbing experience has significantly enhanced my capabilities in planning and executing diverse activities.
+                            During my time at BRAC University, I actively participated in the BRAC University Computer Club (BUCC) and held a role in event management. I contributed to event planning and execution, including venue selection, logistics management, and guest coordination. Through this experience, I developed skills in planning, organization, and event management. As a senior executive, I further honed my abilities in overseeing successful events. This club experience greatly enhanced my capabilities in planning and executing diverse activities.
                             </p>
                         </div>
                     </div>

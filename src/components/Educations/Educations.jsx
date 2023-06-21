@@ -12,7 +12,7 @@ const Educations = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-4  me-5 lg:me-10 '>
                 {/* card 1 */}
                 <div className='col-span-1 md:col-span-1 lg:col-span-2'>
-                    <div className="card card-side  shadow-3xl rounded-3xl bg-slate-700 lg:h-72 h-96  lg:w-[700px] shadow-2xl shadow-black">
+                    <div className="card card-side  shadow-3xl rounded-3xl bg-slate-700 lg:h-72 h-full  lg:w-[700px] shadow-2xl shadow-black">
 
                         <div className="card-body">
 
@@ -48,7 +48,7 @@ const Educations = () => {
 
             {/* second education */}
             {/* ;;;;;;;;;;;;;;;;;;; */}
-            <div className="w-full h-1/3 flex mt-8 md:mt-8 lg:mt-12 text-center group ">
+            <div className="w-full h-1/3 flex mt-28 md:mt-4 lg:mt-4 text-center group ">
                 <div className="w-20 lg:w-80 h-[6px] mt-16 relative bg-slate-200">
                     <span className="absolute w-5 h-5 rounded-full -top-2 -left-3 flex justify-center items-center group-hover:bg-red-700 bg-amber-400"></span>
 
@@ -94,7 +94,7 @@ const Educations = () => {
 
             {/* third education */}
 
-            <div className="min-w-full  h-1/3 flex mt-8 md:mt-8 lg:mt-12 text-center group ">
+            <div className="min-w-full  h-1/3 flex mt-8 md:mt-4 lg:mt-4 text-center group ">
                 <div className="w-20 lg:w-80 h-[6px] mt-16 relative bg-slate-200">
                     <span className="absolute w-5 h-5 rounded-full -top-2 -left-3 flex justify-center items-center group-hover:bg-red-700 bg-amber-400"></span>
 

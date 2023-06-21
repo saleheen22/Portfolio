@@ -128,18 +128,29 @@
     border: 1px solid rgba(0, 0, 0, 0.3);
   }
   
+  @media screen and (max-width: 409px) {
+    .resume{
+      height: 345vh;
+  }
+  .carousel__cell {
+    width: 320px;
+    left: 45px;
+    height: 350px;
+  }
+    
+  }
 
-
+  @media screen and ((min-width: 410px) and (max-width: 575px)) {
+    .resume{
+        height: 275vh;
+    }
+  } 
 
   @media screen and ((min-width: 576px) and (max-width: 1023px))
   {
     .resume{
-        height: 235vh;
+        height: 245vh;
     }
   }
 
-  @media screen and (max-width: 575px) {
-    .resume{
-        height: 250vh;
-    }
-  }  
+ 
