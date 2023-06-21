@@ -42,7 +42,7 @@
     /* background-image: url("https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); */
 
   }
-  
+/*   
   .number-slide2 {
     background: rgb(255, 75, 64);
     background: linear-gradient(
@@ -82,7 +82,7 @@
       rgba(255, 64, 156, 1) 0%,
       rgba(255, 63, 63, 1) 100%
     );
-  }
+  } */
   .images{
     height: 300px;
     width: 100%;
@@ -90,14 +90,14 @@
     margin-top: 1px;
    
   }
-  .number-slide6 {
+  /* .number-slide6 {
     background: rgb(64, 76, 255);
     background: linear-gradient(
       128deg,
       rgba(64, 76, 255, 1) 0%,
       rgba(174, 63, 255, 1) 100%
     );
-  }
+  } */
   .number-slide8 {
     background-color: rgb(51 65 85);
   }
@@ -133,10 +133,11 @@
       height: 345vh;
   }
   .carousel__cell {
-    width: 320px;
+    width: 280px;
     left: 45px;
-    height: 350px;
+    height: 250px;
   }
+
     
   }
 

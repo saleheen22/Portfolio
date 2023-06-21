@@ -23,7 +23,7 @@ const About = () => {
         await console.log(container);
     }, []);
     return (
-        <div className="about ms-4 lg:ms-32 animate__animated animate__fadeInLeft">
+        <div className="about ms-4 lg:ms-32 animate__animated animate__fadeInLeftBig">
             <div className="pt-24 container">
                 {/* <ParticleBg></ParticleBg> */}
                 <div className="party"  >
