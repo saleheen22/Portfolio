@@ -76,8 +76,8 @@ const Resume = () => {
 
                                     {/* Bootstrap */}
                                     <div className='mt-5'>
-                                        <li className='text-2xl font-bold '>Bootstrap</li>
-                                        <div className='col-span-7 md:col-span-5 mt-1 '><progress className="progress  progress-secondary w-full" value="83" max="100"></progress>
+                                        <li className='text-2xl font-bold '>Angular</li>
+                                        <div className='col-span-7 md:col-span-5 mt-1 '><progress className="progress  progress-secondary w-full" value="60" max="100"></progress>
                                         </div>
                                     </div>
                                     {/* Express js */}
@@ -107,7 +107,7 @@ const Resume = () => {
                                             <div className='mt-1'><progress className="progress  progress-secondary w-full" value="60" max="100"></progress>
                                             </div>
                                         </div>
-                                        {/* Leadershipt */}
+                                        {/* Leadership */}
                                         <div className=' mt-5'>
                                             <li className='text-2xl font-bold '>Leadership</li>
                                             <div className='mt-1'><progress className="progress  progress-secondary w-full" value="85" max="100"></progress>
@@ -161,17 +161,17 @@ const Resume = () => {
                                         </div>
                                     </div>
 
-                                    {/* G-suite */}
+                                    {/* Velocity*/}
                                     <div className=' mt-5'>
-                                        <li className='text-2xl font-bold '>G Suite</li>
-                                        <div className=' mt-1'><progress className="progress  progress-secondary w-full" value="82" max="100"></progress>
+                                        <li className='text-2xl font-bold '>Velocity</li>
+                                        <div className=' mt-1'><progress className="progress  progress-secondary w-full" value="60" max="100"></progress>
                                         </div>
                                     </div>
 
-                                    {/* Presentation */}
+                                    {/* Cascade CMS */}
                                     <div className=' mt-5'>
-                                        <li className='text-2xl font-bold '>Presentation</li>
-                                        <div className=' mt-1'><progress className="progress  progress-secondary w-full" value="86" max="100"></progress>
+                                        <li className='text-2xl font-bold '>Cascade CMS</li>
+                                        <div className=' mt-1'><progress className="progress  progress-secondary w-full" value="75" max="100"></progress>
                                         </div>
                                     </div>
                                 </div>

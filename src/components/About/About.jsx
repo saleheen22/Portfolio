@@ -162,13 +162,14 @@ const About = () => {
                                     "I am a web developer",
                                     "Harnessing the power of React",
                                     "Fueling Projects with Firebase",
-                                    "Unleashing the power of MongoDB"
+                                    "Unleashing the power of MongoDB",
+                                    "Exploring the versatility of Angular"
                                     
                                 ]
                              }}
                             /></p>
                             <p className="text-justify">  <span className="py-4 ">
-                                I am a results-oriented web developer specializing in React. Proficient in building dynamic, responsive web applications using React, CSS, HTML, and JavaScript. Experienced in implementing secure Firebase authentication for users. Also familiar with Express.js and MongoDB for server-side development. 
+                                I am a results-oriented web developer specializing in React. Proficient in building dynamic, responsive web applications using React,Angular, CSS, HTML, and JavaScript / TypeScript. Experienced in implementing secure Firebase authentication for users. Also familiar with Express.js and MongoDB for server-side development. 
                             </span> <br />
                                 {/* <div className="">
                             <button className="btn mt-4 font-bold btn-warning z-20 grid grid-cols-2"> <a href="google.com"><div>Download CV </div> <div><FaDownload></FaDownload></div></a> </button>
